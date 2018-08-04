@@ -7,8 +7,8 @@ import datetime
 import os
 
 def ShowHelp():
-    print ("python videodownload.py -u videoURL")
-    print ("python videodownload.py -f videoURLList")
+    print ("python videodownload.py -u https://www.instagram.com/p/XXXXXX/")
+    print ("python videodownload.py -f /user/myVideodownloadList.txt")
 
 
 def Download_video(videoURL, savePath = ''):
